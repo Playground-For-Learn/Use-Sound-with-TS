@@ -2,7 +2,7 @@ import React from 'react';
 import useSound from 'use-sound';
 
 export default function Sound(props: any) {
-    const [play, { stop, isPlaying }] = useSound(props.data.audioSrc, { volume: 0.95, interrupt: true });
+    const [play, { stop, isPlaying }] = useSound(props.data.src, { volume: 0.95, interrupt: true });
 
     const clickHandler = (): void => {
         /** Case 1

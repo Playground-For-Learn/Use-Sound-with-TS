@@ -6,22 +6,22 @@ import pinkPanther from '../Sound/pink-panther.wav';
 
 type SoundType = {
     name: string,
-    audioSrc: any
+    src: string;
 };
 
 export default function Homepage() {
     const data: SoundType[] = [
         {
             name: 'A3',
-            audioSrc: a3
+            src: a3
         }, 
         {
             name: 'Aw',
-            audioSrc: aw
+            src: aw
         },
         {
             name: 'Pink Panther',
-            audioSrc: pinkPanther
+            src: pinkPanther
         }
     ];
 
